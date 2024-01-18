@@ -8,7 +8,7 @@ body, h1, h2, h3, p, ul, li {
 body {
     background-color: #f5f5f5;
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: #333;   
 }
 
 /* Style the header */
@@ -33,15 +33,6 @@ main {
     padding: 20px 0;
 }
 
-/* Style section headers */
-.section-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
 /* Style the footer */
 footer {
     background-color: #4d4d4d;
@@ -55,10 +46,19 @@ a {
 }
 
 section {
-    max-width: 800px;
+    max-width: 1000px;
+    min-height: 610px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    float: right;
+    margin-right: auto;
+    margin-left: 10px;
+    box-shadow: #4d4d4d;
+    padding: 5px;
 }
