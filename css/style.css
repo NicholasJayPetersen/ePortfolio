@@ -11,27 +11,15 @@ body {
     color: #333;
 }
 
-/* Create a container to center the content */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 /* Style the header */
 header {
-    background-color: #3498db;
+    background-color: #4d4d4d;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-/* Style navigation links */
-nav {
-    margin-top: 20px;
-}
-
-nav a {
+a {
     text-decoration: none;
     color: #333;
     padding: 10px 15px;
@@ -59,33 +47,10 @@ main {
     border-radius: 5px;
 }
 
-/* Style portfolio items */
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.portfolio-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
 /* Style the footer */
 footer {
-    background-color: #333;
+    background-color: #4d4d4d;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-}
-
-/* Media query for responsiveness */
-@media screen and (max-width: 768px) {
-    nav {
-        text-align: center;
-    }
-
-    nav a {
-        display: block;
-        margin-bottom: 10px;
-    }
 }
