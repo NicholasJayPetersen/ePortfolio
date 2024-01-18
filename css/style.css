@@ -1,13 +1,13 @@
-body {
-            font-family: Arial, sans-serif;
+        body {
+            font-family: Arial;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #ffffff;
         }
 
         header {
+            font-family: Arial;
             background-color: #333;
-            color: #fff;
             text-align: center;
             padding: 1em;
         }
@@ -43,5 +43,16 @@ body {
             text-align: center;
             padding: 1em;
             background-color: #333;
-            color: #fff;
+        }
+
+        p{
+            color:#000000;
+        }
+
+        h1{
+            color:#ffffff;
+        }
+
+        h6{
+            color:#ffffff;
         }
