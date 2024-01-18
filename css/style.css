@@ -1,23 +1,4 @@
-        body {
-            font-family: Arial;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            font-family: Arial;
-            text-align: center;
-            padding: 1em;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        p {
+         p {
             line-height: 1.6;
         }
 
