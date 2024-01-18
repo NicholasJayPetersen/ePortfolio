@@ -28,11 +28,6 @@ a {
     transition: background-color 0.3s ease;
 }
 
-nav a:hover {
-    background-color: #3498db;
-    color: #fff;
-}
-
 /* Style the main content area */
 main {
     padding: 20px 0;
@@ -53,4 +48,17 @@ footer {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+
+a {
+    color:aqua;
+;}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
