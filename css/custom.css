@@ -1,0 +1,56 @@
+table { 
+	border-collapse: 	collapse; 
+	max-width: 100%;
+	height: auto;
+}
+table, tr, td, th { 
+	padding: 			10px; 
+	border:				solid 1px black;
+	max-width: 100%;
+	height: auto;
+	word-break: break-all;
+}
+tr {
+	vertical-align: 	top;
+
+}
+th {
+	background-color: 	#5e5e5e60;
+	color: 				#333333;
+	max-width: 100%;
+	height: auto;
+}
+tr:nth-child(odd)		{ background-color: #91919160; }
+tr:nth-child(even)		{ background-color: white }
+tr:hover 				{ background-color: #9dc15b }
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.table1 {
+	padding: 			10px; 
+	border-collapse: 	collapse; 
+	max-width: 100%;
+	height: auto;
+}
+
+.searchBox {
+	border-collapse: 	collapse; 
+	max-width: 100%;
+	height: auto;
+}
+
+.tuitionResults {
+	min-width: 500px;
+	max-height: auto;
+}
+
+button:hover {
+	cursor: pointer
+}
+
+.darken {
+	background-color: #c9c9c9;
+}
