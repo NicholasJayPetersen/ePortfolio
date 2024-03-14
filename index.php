@@ -209,7 +209,6 @@
 
                         <ul class="footer-links">
                             <li><a href="mailto:nicholas.jay.petersen@gmail.com">nicholas.jay.petersen@gmail.com</a></li>
-                            <li><a href="cislinux.hfcc.edu/~njpetersen">cislinux.hfcc.edu/~njpetersen</a></li>
                             <li>Detroit Metro Area</li>
                             <li>+1 123 456 7890</li>
                         </ul><!-- end links -->
