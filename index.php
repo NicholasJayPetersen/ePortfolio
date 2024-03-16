@@ -169,7 +169,7 @@
 	
 	<div class="all-title-box">
 		<div class="container text-center">
-	 		<h1>Coming Soon!<span class="m_1">We're still building it!</span></h1>
+	 		<h1>Coming Soon!<span class="m_1">We're still building it! Check back later for greatness.</span></h1>
 		</div>
 	</div>  
 
