@@ -15,7 +15,7 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -44,7 +44,7 @@
 <body class="host_version"> 
 
 	<!-- Modal -->
-	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal fade" id="login" tabindex="-1" role="dialog">
 	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<div class="modal-header tit-up">
@@ -60,7 +60,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div class="tab-pane active" id="Login">
-						<form role="form" class="form-horizontal">
+						<form class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
 									<input class="form-control" id="email1" placeholder="Name" type="text">
@@ -82,7 +82,7 @@
 						</form>
 					</div>
 					<div class="tab-pane" id="Registration">
-						<form role="form" class="form-horizontal">
+						<form class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
 									<input class="form-control" placeholder="Name" type="text">
