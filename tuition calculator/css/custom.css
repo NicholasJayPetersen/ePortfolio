@@ -1,11 +1,11 @@
 table { 
 	border-collapse: 	collapse; 
+	max-width: 100%;
 	height: auto;
-	padding-bottom: 25px;
 }
 table, tr, td, th { 
-	padding: 10px; 
-	border:	solid 1px black;
+	padding: 			10px; 
+	border:				solid 1px black;
 	max-width: 100%;
 	height: auto;
 	word-break: break-all;
@@ -45,29 +45,4 @@ tr:hover 				{ background-color: #9dc15b }
 .tuitionResults {
 	min-width: 500px;
 	max-height: auto;
-}
-
-button:hover {
-	cursor: pointer
-}
-
-.darken {
-	background-color: #c9c9c9;
-}
-
-.grade-table {
-	min-width: fit-content;
-	width: 50%;
-	margin-bottom: 25px;
-}
-
-.transparent {
-	table, tr, td {
-		background-color: transparent;
-		border: none;
-		width: 35%;
-		vertical-align: middle;
-		padding-bottom: 10px;
-	}
-
 }

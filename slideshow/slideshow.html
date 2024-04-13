@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="slideshowcss.css">
+</head>
+
+<body>
+
+    <div class="slideshow-container">
+        <div class="slides fade">
+            <div class="number">1/7</div>
+            <img src="web-figures1.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <div class="number">2/7</div>
+            <img src="web-figures2.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <div class="number">3/7</div>
+            <img src="web-figures3.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <div class="number">4/7</div>
+            <img src="web-figures4.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <div class="number">5/7</div>
+            <img src="web-figures5.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <div class="number">6/7</div>
+            <img src="web-figures6.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <div class="number">7/7</div>
+            <img src="web-figures7.jpg" style="width:100%">
+        </div>
+
+        <a class="previous" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function moveSlide(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+    
+</body>

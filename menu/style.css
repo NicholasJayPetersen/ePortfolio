@@ -1,0 +1,84 @@
+body { 
+	margin: 			12px 0;       /* distance from white box to top & bottom of browser */
+	color: 				#000000;      /* menu text color - black */
+	background-color: 	#D3BCA7;      /* background of web page */
+	font-size: 			11pt;
+	font-family:		Verdana, Tahoma, Arial,sans-serif;
+}
+#container {
+	position: 			relative;
+    width: 				90%;		         /* width of container */
+    margin: 			0 auto;		         /* centers the white box */
+    background-color: 	#ffffff;	         /* background color of container - white */
+    padding: 			4px 15px 0 15px;     /* distance between banner and edge of white */ 
+	border:  			2px solid #996633;   /* container border properties */
+}
+h1	{ 
+	font-size: 			15pt; 
+}
+.left {										/* div for left column */
+	float:				left;
+	width:				45%;
+}
+.right {										/* div for right column */
+	float:				right;
+	width:				45%;
+}
+.menuitems {
+	font-weight: 		bold;
+}
+select, input 	{
+	background-color:	#D3BCA7;
+}
+img{
+	border:1px solid #;						/* these five lines add rounded corner to images */
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+    display: block;							/* these three lines needed to center image */
+    margin-left: auto;						
+    margin-right: auto 						
+}
+.center {
+	text-align: 		center;
+}
+.blue {
+	color:				blue;
+}
+.tablectr {
+	margin-left:auto; 
+    margin-right:auto;
+}
+td{
+	padding: 			10px;
+}
+
+/* CSS to make images scalable */
+.image-wrapper
+{
+	position: relative;
+}
+.scale-image
+{
+	display: block;
+	width: auto;
+	max-width: 100%;
+}
+.clear {										/* div to start back to left for new row */
+	clear:				both;
+}
+
+@media only screen and (max-width: 800px)  {
+	.left, 
+    .right {
+        float: 			left;
+        width: 			auto; 
+    }
+}
+
+
+@media print {
+  .noshow {
+        display:none;		/* hides images when printing */
+    }
+}

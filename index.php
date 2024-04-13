@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>ePortfolio</title>  
+    <title>Nicholas Petersen's ePortfolio</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -36,9 +36,6 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7960643373169670"
-     crossorigin="anonymous"></script>
 
 </head>
 <body class="host_version"> 
@@ -129,118 +126,191 @@
 		</div>
 	</div>
 	<!-- END LOADER -->	
-
-    <header class="top-navbar">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="index.php">
-					<img src="images/logo-hosting.png" alt="">
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbars-host">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="Nicholas_Jay_Petersen.pdf">Resume</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Web Projects </a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="clientserver2.php">Client Server</a>
-								<a class="dropdown-item" href="webhosting.php">Web Hosting</a>
-								<a class="dropdown-item" href="methodologies.php">Methodologies</a>
-								<a class="dropdown-item" href="php1.php">Basic PHP</a>
-								<a class="dropdown-item" href="php2.php">Intermediate PHP</a>
-								<a class="dropdown-item" href="languages.php">Web Languages</a>
-								<a class="dropdown-item" href="voice.php">Speech Recognition</a>
-							</div>
-						</li>
-						<li class="nav-item"><a class="nav-link" href="contact.php">Contact Me</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>
-                    </ul>
-				</div>
-			</div>
-		</nav>
-	</header>
 	
-	<div class="all-title-box">
-		<div class="container text-center">
-	 		<h1>Coming Soon!<span class="m_1">We're still building it! Check back later for greatness.</span></h1>
+	<!-- Start header -->
+        <?php include('header.php');  ?> 
+	<!-- End header -->
+	
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-right">
+									<div class="big-tagline">
+										<h2><strong>Nicholas</strong> Petersen</h2>
+										<p class="lead">Software Engineer, Web Developer, and Database Architect. </p>
+											<a href="mailto:nicholas.jay.petersen@gmail.com" class="hover-btn-new"><span>Contact Me</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="Nicholas_Jay_Petersen.pdf" class="hover-btn-new"><span>Resume</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div class="first-section" style="background-image:url('images/slider-02.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight">Experienced<strong> Developer</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">Years of experience developing applications and web sites in all major languages and platforms. </p>
+                                            <a href="mailto:nicholas.jay.petersen@gmail.com" class="hover-btn-new"><span>Contact Me</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="Nicholas_Jay_Petersen.pdf" class="hover-btn-new"><span>Resume</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div class="first-section" style="background-image:url('images/slider-03.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong>Highly</strong> motivated</h2>
+										<p class="lead" data-animation="animated fadeInLeft">Very passionate about quality and professional development.</p>
+                                            <a href="mailto:nicholas.jay.petersen@gmail.com" class="hover-btn-new"><span>Contact Me</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="Nicholas_Jay_Petersen.pdf" class="hover-btn-new"><span>Resume</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<!-- Left Control -->
+			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-	</div>  
-
-
-
-
-    <footer class="footer">
+	</div>
+	
+    <div id="overviews" class="section lb">
         <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>About</h3>
+                    <p class="lead">I am also continuing my education at Henry Ford College in an effort to earn my degree in Computer Information Systems. 
+						It is my goal to segue from warranty analysis into automotive software engineering or web deveopment. 
+						My ultimate goal is to make the automotive experience, from researching, to buying, to driving, better for everyone. <br><br>
+						I love to be the change I want to see in the world. I am very results driven and demonstrate an unrivaled devotion in what I'm passionate for.</p>
+                </div>
+            </div><!-- end title -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+	<div class="section cl">
+		<div class="container">
+			<div class="row text-left stat-wrap">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-hosting"></i></span>
+					<p class="stat_count">15</p>
+					<h3>Programs Written</h3>
+				</div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-domain-registration"></i></span>
+					<p class="stat_count">42</p>
+					<h3>Web Pages Built</h3>
+				</div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-mail"></i></span>
+					<p class="stat_count">4</p>
+					<h3>Known Languages</h3>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+                <p>Delivered as promised!</p>
+            </div><!-- end title -->
+
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Mission Statement:</h3>
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">They made me a beautifully crafted website!.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4>Jacques Philips </h4>
+                            </div>
+                            <!-- end testi-meta -->
                         </div>
-                        <p></p>
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
+                        <!-- end testimonial -->
 
-				<div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Information Link</h3>
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Indevidual</h3>
+                                <p class="lead">I asked for a highly complex and intricate user experience for my online storefront and they delivered!</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/testi_03.png" alt="" class="img-fluid ">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <!-- end testi-meta -->
                         </div>
-                        <ul class="footer-links">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pricing</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Faq</a></li>
-							<li><a href="#">Contact</a></li>
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-				
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Contact Details</h3>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">My website would not display after changing hosting companies. They fixed it to match the new hosting requirements very fast so i did not lose any revenue.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/testi_01.png" alt="" class="img-fluid">
+                                <h4>James Fernando </h4>
+                            </div>
+                            <!-- end testi-meta -->
                         </div>
-
-                        <ul class="footer-links">
-                            <li><a href="mailto:nicholas.jay.petersen@gmail.com">nicholas.jay.petersen@gmail.com</a></li>
-                            <li>Detroit Metro Area</li>
-                            <li>+1 123 456 7890</li>
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
+                        <!-- end testimonial -->
+                    </div><!-- end carousel -->
                 </div><!-- end col -->
-				
             </div><!-- end row -->
         </div><!-- end container -->
-    </footer><!-- end footer -->
+    </div><!-- end section -->
 
-    <div class="copyrights">
+    <div class="parallax section dbcolor">
         <div class="container">
-            <div class="footer-distributed">
-                <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. Design By: Nicholas Petersen</p>
-                </div>
-
-                <div class="footer-right">
-                    <ul class="footer-links-soi">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-github"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-					</ul><!-- end links -->
-                </div>
-            </div>
+            <div class="row logos">
+                
+            </div><!-- end row -->
         </div><!-- end container -->
-    </div><!-- end copyrights -->
+    </div><!-- end section -->
+
+	<!-- Footer section-->
+	<?php include('footer.php'); ?>
 
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
@@ -248,6 +318,14 @@
     <script src="js/all.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
-
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
 </body>
 </html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="CIS Restaurant, Lunch Menu">
+	<meta name="description" content="CIS Restaurant: Lunch Menu">
+	<title>CIS Restaurant Menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<div class="image-wrapper">
+	<p><img class="noshow scale-image" src="header.jpg" alt="Photo of inside of CIS 122 restaurant"></p>
+</div>
+
+<h1 class="center">MENU ORDER FORM</h1>
+
+<p class="blue">Select how many of each menu items you want to order using the drop-down menus below, and then click the “Calculate Total” button at the bottom of the menu to preview your order and the total amount due.</p>
+
+<form action="order.php" method="post">
+
+<div class="left">
+
+<h1>Appetizers</h1>
+
+	<p><span class="menuitems">Boneless Wings and Skins Sampler</span>
+	&nbsp;&nbsp;Order: 
+	<select name="wings">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>Boneless Buffalo Wings (chose from garlic, bbq, or spicy) and made to order Potato Skins. 7.99</p>
+	   
+	<div class="image-wrapper">
+		<p><img class="noshow scale-image" src="wings.jpg" alt="Boneless Wings and Skins Sampler"></p>
+	</div>
+
+	
+	 <p><span class="menuitems">Three Cheese Nachos</span>
+	 	&nbsp;&nbsp;Order: 
+	<select name="nachos">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	 <br>A mountain of crisp tortilla chips smothered in Monterey Jack, mozzarella, and cheddar cheeses then topped 
+	 with red onions, jalapepos, fresh cilantro, salsa, and sour cream. 7.99</p>
+	  
+	 <p><span class="menuitems">Spinach Artichoke Dip</span>
+	 	&nbsp;&nbsp;Order: 
+	<select name="dip">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	 <br>Made with tender artichoke hearts and creamy Parmesan cheese. Served with unlimited crisp tortilla chips. 6.99</p>	
+
+	 <p><span class="menuitems">Santa Fe Chicken Quesadilla</span>
+		&nbsp;&nbsp;Order: 
+	<select name="quesadilla">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Seasoned chicken with grilled peppers and onions, feta, and Swiss cheese. Grilled then topped with our chile sauce. 7.99</p>
+
+	<p><span class="menuitems">Chips and Salsa</span>
+	&nbsp;&nbsp;Order: 
+	<select name="chips">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Warm tortilla chips (free refills) with our homemade zesty salsa. 5.99 </p>
+		
+	<p><span class="menuitems">Fried Calamari</span>
+	&nbsp;&nbsp;Order: 
+	<select name="calamari">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Fresh calamari with spicy tomato and tartar sauce. 7.99</p>
+
+<h1>Sandwiches</h1>
+
+	<p><span class="menuitems">Pastrami Sandwich</span>
+	&nbsp;&nbsp;Order: 
+	<select name="pastrami">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+	Sliced pastrami with Swiss cheese, dijon mustard, and cole slaw. 8.99</p>
+	
+	<div class="image-wrapper">
+		<p><img class="noshow scale-image" src="pastrami.jpg" alt="Photo of inside of CIS 122 restaurant"></p>
+	</div>
+
+	<p><span class="menuitems">Roasted Turkey & Avocado BLT Panini</span>
+	&nbsp;&nbsp;Order: 
+	<select name="panini">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+	Roasted turkey raised without antibiotics, applewood-smoked bacon, lettuce, vine-ripened tomatoes 
+	and fresh avocado with reduced-fat olive oil mayo on our freshly baked Sourdough Bread. $8.99</p>
+		
+	<p><span class="menuitems">Reuben Sandwich</span>
+	&nbsp;&nbsp;Order: 
+	<select name="reuben">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+	Large portion of corned beef with Swiss cheese, sauerkraut & Russian dressing on grilled on your 
+	choice of hand-sliced bread. 8.99</p>
+	
+
+	<p><span class="menuitems">Vegetarian Sandwich</span>
+	&nbsp;&nbsp;Order: 
+	<select name="vegetarian">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+	Smoked mozzarella, piquillo peppers, lettuce, tomato, olive oil & vinegar on a grilled paesano roll. 7.99</p>
+		
+	<p><span class="menuitems">Chipotle Honey Mustard Turkey Wrap</span>
+	&nbsp;&nbsp;Order: 
+	<select name="turkey">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Sliced oven roasted turkey, crisp lettuce, tomatoes, smoked bacon and Monterey Jack and cheddar 
+		cheeses are drizzled with chipotle honey mustard sauce then wrapped up tight in a warm tortilla. 9.99</p>
+
+	<div class="image-wrapper">
+		<p><img class="noshow scale-image" src="turkey.jpg" alt="Chipotle Honey Mustard Turkey Wrap"></p>
+	</div>
+
+		
+	<p><span class="menuitems">BBQ Bacon Cheddar Burger</span>
+	&nbsp;&nbsp;Order: 
+	<select name="burger">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Beef patty, Canadian bacon, cheddar, bacon, bbq sauce, mayo, lettuce & tomato, kaiser bun. 9.99</p>
+		
+</div>
+
+<div class="right">
+
+<h1>Italian</h1>
+
+	<p><span class="menuitems">Cajun Jambalaya Pasta</span>
+	&nbsp;&nbsp;Order: 
+	<select name="jambalaya">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Shrimp, chicken, and andouille sausage sauteed with onions and peppers in a spicy Cajun cream sauce. 12.99</p>
+
+	<p><span class="menuitems">Parmesan Shrimp Pasta</span>
+	&nbsp;&nbsp;Order: 
+	<select name="shrimp">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Spicy sauteed shrimp served over penne in Parmesan cream with diced tomatoes.  11.99</p>
+
+	<p><span class="menuitems">Parmesan Chicken Pasta</span>
+	&nbsp;&nbsp;Order: 
+	<select name="chickenpasta">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Parmesan-crusted chicken breast over penne pasta tossed in Parmesan cream sauce, then finished with tomato-basil sauce and Swiss. 10.99</p>
+
+	<p><span class="menuitems">Angel Hair Pasta</span>
+	&nbsp;&nbsp;Order: 
+	<select name="angelhair">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		With roma tomatoes, roasted eggplant, garlic, basil, pine nuts, feta, parmesan and olive oil. 10.99</p>
+
+	<p><span class="menuitems">Chicken and Mushroom Alfredo</span>
+	&nbsp;&nbsp;Order: 
+	<select name="alfredo">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Seasoned chicken tossed with linguini pasta, Cajun spices, sauteed baby portabella mushrooms, green peas, and 
+		rich Parmesan cream sauce. 11.99</p>
+	
+	<div class="image-wrapper">
+		<p><img class="noshow scale-image" src="alfredo.jpg" alt="Chicken and Mushroom Alfredo"></p>
+	</div>
+	
+	<h1>Desserts</h1>
+
+	<p><span class="menuitems">Baked Apple Dumpling</span>
+	&nbsp;&nbsp;Order: 
+	<select name="apple">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		Covered with Pecan Streusel and Premium Vanilla Bean Ice Cream n' Apple Topping. 5.99</p>
+		
+	<p><span class="menuitems">Chocolate Fudge Brownie</span>
+	&nbsp;&nbsp;Order: 
+	<select name="brownie">
+		<option value="0">0</option>	<option value="1">1</option>
+		<option value="2">2</option>	<option value="3">3</option>
+		<option value="4">4</option>	<option value="5">5</option>
+		<option value="6">6</option>	<option value="7">7</option>
+		<option value="8">8</option>	<option value="9">9</option>
+	</select>
+	<br>
+		A warm chocolate-fudge brownie topped with vanilla ice cream, caramel sauce and pecans. 7.99</p>
+		
+	<div class="image-wrapper">
+		<p><img class="noshow scale-image" src="brownie.jpg" alt="Chocolate fudge brownie"></p>
+	</div>
+
+</div>
+
+<div class="clear"></div>
+
+	<p>If you have a coupon code, enter it here: <br>
+	<input type="input" name="couponcode" maxlength="15" size="15"></p>
+
+	<p><input type="submit" value="Calculate Total"></p>
+
+	</form>
+
+
+</div>
+
+</body>
+</html>
